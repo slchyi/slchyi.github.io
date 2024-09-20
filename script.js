@@ -9,7 +9,7 @@ window.addEventListener('wheel', function (event) {
     const screen2 = document.querySelector('.screen-2');
 
     // 向下滚动，切换到界面二
-    if (event.deltaY > 0 && currentScreen === 1) {
+    if (event.deltaY > 0 || event.touches[0].clientY < window.innerHeight / 2 && currentScreen === 1) {
         isAnimating = true;
         currentScreen = 2;
         screen1.style.transform = 'translateY(-100vh)';
@@ -24,7 +24,7 @@ window.addEventListener('wheel', function (event) {
       }, 1000); // 等待过渡动画结束后显示对话框
     } 
     // 向上滚动，切换回界面一
-    else if (event.deltaY < 0 && currentScreen === 2) {
+    else if (event.deltaY < 0 || event.touches[0].clientY > window.innerHeight / 2 && currentScreen === 2) {
         isAnimating = true;
         currentScreen = 1;
         screen1.style.transform = 'translateY(0)';
