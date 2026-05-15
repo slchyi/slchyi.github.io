@@ -21,7 +21,7 @@ jobs:
         run: |
           now=$(date +%s)
           seven_days_ago=$((now - 7*24*3600))
-          url="https://the-grid.org/r/export/?key=${API_KEY}&t0=${seven_days_ago}&t1=${now}&dir=asc"
+          url="https://the-grid.org/r/export/?key=${API_KEY}&t0=${now}&t1=${seven_days_ago}&dir=asc"
           
           echo "Fetching data from the-grid.org..." 
           curl -s "$url" -o gamedata.json
