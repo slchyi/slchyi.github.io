@@ -8,12 +8,12 @@ on:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/checkout@v4
 
       - name: Fetch past 7 days JSON
         env:
@@ -22,7 +22,8 @@ jobs:
           now=$(date +%s)
           seven_days_ago=$((now - 7*24*3600))
           url="https://the-grid.org/r/export/?key=${API_KEY}&t0=${seven_days_ago}&t1=${now}&dir=asc"
-          echo "Fetching data from: $url"
+          
+          echo "Fetching data from the-grid.org..." 
           curl -s "$url" -o gamedata.json
 
       - name: Commit & Push
