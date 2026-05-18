@@ -32,7 +32,7 @@ jobs:
         
         # 检查文件是否有实际改动，避免无意义的提交
         if [ -f "stats_difference.json" ] && ! git diff --quiet stats_difference.json; then
-          git add stats_difference.json
+          git add data/stats_difference.json
           git commit -m "chore: auto-update stats difference [skip ci]"
           git push
         else
