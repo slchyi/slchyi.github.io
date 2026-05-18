@@ -1,0 +1,40 @@
+name: get 7days stats difference
+
+on:
+  push:
+    paths:
+      - 'data.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  calculate-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Run logic script
+      run: python process_data.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # 检查文件是否有实际改动，避免无意义的提交
+        if [ -f "stats_difference.json" ] && ! git diff --quiet stats_difference.json; then
+          git add stats_difference.json
+          git commit -m "chore: auto-update stats difference [skip ci]"
+          git push
+        else
+          echo "No changes detected in stats_difference.json. Skipping commit."
+        fi
