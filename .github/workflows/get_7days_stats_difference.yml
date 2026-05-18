@@ -23,7 +23,7 @@ jobs:
         python-version: '3.x'
 
     - name: Run logic script
-      run: python process_data.py
+      run: python script/7days_stats_difference.py
 
     - name: Commit and Push changes
       run: |
