@@ -55,4 +55,4 @@ def process_ingress_json_diff(input_filename, output_filename):
         sys.exit(1)
 
 if __name__ == "__main__":
-    process_ingress_json_diff("data/data.json", "data/stats_difference.json")
+    process_ingress_json_diff("data/gamedata.json", "data/stats_difference.json")
