@@ -24,12 +24,12 @@ jobs:
           url="https://the-grid.org/r/export/?key=${API_KEY}&t0=${seven_days_ago}&t1=${now}&dir=asc"
           
           echo "Fetching data from the-grid.org..." 
-          curl -s "$url" -o gamedata.json
+          curl -s "$url" -o data/gamedata.json
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add gamedata.json
+          git add data/gamedata.json
           git commit -m "Update game data $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push
