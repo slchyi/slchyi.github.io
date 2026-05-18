@@ -3,7 +3,7 @@ name: get 7days stats difference
 on:
   push:
     paths:
-      - 'data.json'
+      - 'data/gamedata.json'
   workflow_dispatch:
 
 permissions:
