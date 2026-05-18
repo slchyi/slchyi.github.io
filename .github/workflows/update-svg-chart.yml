@@ -3,9 +3,7 @@ name: Update SVG AP Chart
 on:
   push:
     paths:
-      - "data/gamedata.json"
       - "data/stats_difference.json"
-      - "script/render_ap_chart.py"
   workflow_dispatch:
 
 permissions:
