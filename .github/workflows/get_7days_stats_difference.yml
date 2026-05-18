@@ -31,7 +31,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         
         # 检查文件是否有实际改动，避免无意义的提交
-        if [ -f "stats_difference.json" ] && ! git diff --quiet stats_difference.json; then
+        if [ -f "data/stats_difference.json" ] && ! git diff --quiet data/stats_difference.json; then
           git add data/stats_difference.json
           git commit -m "chore: auto-update stats difference [skip ci]"
           git push
