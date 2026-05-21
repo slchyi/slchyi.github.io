@@ -50,7 +50,7 @@ def format_date(ts):
 
 
 def format_ap(value):
-    return f"{value / 1_000_000:.1f}M"
+    return f"{value / 1_000_000:.2f}M"
 
 
 def load_stats_difference(path: Path):
