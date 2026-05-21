@@ -5,12 +5,17 @@ on:
     paths:
       - "data/stats_difference.json"
   workflow_dispatch:
+  workflow_run:
+    workflows: ["get 7days stats difference"]
+    types:
+      - completed
 
 permissions:
   contents: write
 
 jobs:
   render:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -28,10 +33,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- image/ingress_data.svg; then
+          if git diff --quiet -- image/1.svg; then
             echo "No SVG changes"
             exit 0
           fi
-          git add image/ingress_data.svg
-          git commit -m "Update chart in SVG"
+          git add image/1.svg
+          git commit -m "Update AP chart in SVG"
           git push
