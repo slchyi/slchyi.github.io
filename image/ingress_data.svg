@@ -88,19 +88,19 @@
         <rect width="112" height="10" rx="1.2" fill="#24265d" />
         <text class="font-base" x="4" y="6.8" fill="#f0f6fd" font-size="4px" font-weight="900">DESCRIPTION</text>
         <text class="panel-label" x="4" y="16.8" font-size="5.1px">xm collected:</text>
-        <text class="panel-value" x="108" y="16.8" text-anchor="end" font-size="5.1px">2,043,200</text>
+        <text class="panel-value" x="108" y="16.8" text-anchor="end" font-size="5.1px">2,983,121</text>
         <text class="panel-label" x="4" y="24.8" font-size="5.1px">glyph points:</text>
-        <text class="panel-value" x="108" y="24.8" text-anchor="end" font-size="5.1px">1,184</text>
+        <text class="panel-value" x="108" y="24.8" text-anchor="end" font-size="5.1px">1,480</text>
         <text class="panel-label" x="4" y="32.8" font-size="5.1px">portals visited:</text>
-        <text class="panel-value" x="108" y="32.8" text-anchor="end" font-size="5.1px">141</text>
+        <text class="panel-value" x="108" y="32.8" text-anchor="end" font-size="5.1px">149</text>
         <text class="panel-label" x="4" y="40.8" font-size="5.1px">unique portals captured:</text>
-        <text class="panel-value" x="108" y="40.8" text-anchor="end" font-size="5.1px">144</text>
+        <text class="panel-value" x="108" y="40.8" text-anchor="end" font-size="5.1px">152</text>
         <text class="panel-label" x="4" y="48.8" font-size="5.1px">links destroyed:</text>
-        <text class="panel-value" x="108" y="48.8" text-anchor="end" font-size="5.1px">96</text>
+        <text class="panel-value" x="108" y="48.8" text-anchor="end" font-size="5.1px">139</text>
         <text class="panel-label" x="4" y="56.8" font-size="5.1px">fields destroyed:</text>
-        <text class="panel-value" x="108" y="56.8" text-anchor="end" font-size="5.1px">27</text>
+        <text class="panel-value" x="108" y="56.8" text-anchor="end" font-size="5.1px">44</text>
         <text class="panel-label" x="4" y="64.8" font-size="5.1px">resonators deployed:</text>
-        <text class="panel-value" x="108" y="64.8" text-anchor="end" font-size="5.1px">2,203</text>
+        <text class="panel-value" x="108" y="64.8" text-anchor="end" font-size="5.1px">2,769</text>
       </g>
     <!-- STATS_PANEL_END -->
   </g>
@@ -119,28 +119,30 @@
       <line class="axis-line" x1="18.5" y1="16" x2="18.5" y2="117" />
       <line class="axis-line" x1="18.5" y1="117" x2="128.5" y2="117" />
       <line class="axis-tick" x1="18.5" y1="117" x2="128.5" y2="117" />
-      <text class="axis-label" x="15.8" y="118.2" text-anchor="end" font-size="3.2px">35.51M</text>
+      <text class="axis-label" x="15.8" y="118.2" text-anchor="end" font-size="2.7px">36.07M</text>
       <line class="axis-tick" x1="18.5" y1="83.33" x2="128.5" y2="83.33" />
-      <text class="axis-label" x="15.8" y="84.53" text-anchor="end" font-size="3.2px">36.46M</text>
+      <text class="axis-label" x="15.8" y="84.53" text-anchor="end" font-size="2.7px">37.48M</text>
       <line class="axis-tick" x1="18.5" y1="49.67" x2="128.5" y2="49.67" />
-      <text class="axis-label" x="15.8" y="50.87" text-anchor="end" font-size="3.2px">37.41M</text>
+      <text class="axis-label" x="15.8" y="50.87" text-anchor="end" font-size="2.7px">38.88M</text>
       <line class="axis-tick" x1="18.5" y1="16" x2="128.5" y2="16" />
-      <text class="axis-label" x="15.8" y="17.2" text-anchor="end" font-size="3.2px">38.36M</text>
-      <path d="M 20 110.03 L 38 86.87 L 56 86.87 L 74 69.9 L 92 37.99 L 110 24.31 L 128 22.97" fill="none" stroke="url(#accent-grad)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" clip-path="url(#clip-chart)"/>
+      <text class="axis-label" x="15.8" y="17.2" text-anchor="end" font-size="2.7px">40.29M</text>
+      <path d="M 20 110.03 L 35.43 110.03 L 50.86 98.58 L 66.29 77.05 L 81.71 67.81 L 97.14 66.91 L 112.57 22.97 L 128 22.97" fill="none" stroke="url(#accent-grad)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" clip-path="url(#clip-chart)"/>
       <circle cx="20" cy="110.03" r="2.2" class="trend-point"/>
-      <circle cx="38" cy="86.87" r="2" class="trend-point"/>
-      <circle cx="56" cy="86.87" r="2" class="trend-point"/>
-      <circle cx="74" cy="69.9" r="2" class="trend-point"/>
-      <circle cx="92" cy="37.99" r="2" class="trend-point"/>
-      <circle cx="110" cy="24.31" r="2" class="trend-point"/>
+      <circle cx="35.43" cy="110.03" r="2" class="trend-point"/>
+      <circle cx="50.86" cy="98.58" r="2" class="trend-point"/>
+      <circle cx="66.29" cy="77.05" r="2" class="trend-point"/>
+      <circle cx="81.71" cy="67.81" r="2" class="trend-point"/>
+      <circle cx="97.14" cy="66.91" r="2" class="trend-point"/>
+      <circle cx="112.57" cy="22.97" r="2" class="trend-point"/>
       <circle cx="128" cy="22.97" r="2.2" class="trend-point-end"/>
-      <text class="axis-label" x="20" y="131" text-anchor="middle"><tspan x="20" dy="0" font-size="3.2px">06-12</tspan><tspan x="20" dy="3.8" font-size="3.2px">01:15</tspan></text>
-      <text class="axis-label" x="38" y="131" text-anchor="middle"><tspan x="38" dy="0" font-size="3.2px">06-12</tspan><tspan x="38" dy="3.8" font-size="3.2px">22:38</tspan></text>
-      <text class="axis-label" x="56" y="131" text-anchor="middle"><tspan x="56" dy="0" font-size="3.2px">06-12</tspan><tspan x="56" dy="3.8" font-size="3.2px">22:53</tspan></text>
-      <text class="axis-label" x="74" y="131" text-anchor="middle"><tspan x="74" dy="0" font-size="3.2px">06-13</tspan><tspan x="74" dy="3.8" font-size="3.2px">03:19</tspan></text>
-      <text class="axis-label" x="92" y="131" text-anchor="middle"><tspan x="92" dy="0" font-size="3.2px">06-13</tspan><tspan x="92" dy="3.8" font-size="3.2px">19:18</tspan></text>
-      <text class="axis-label" x="110" y="131" text-anchor="middle"><tspan x="110" dy="0" font-size="3.2px">06-13</tspan><tspan x="110" dy="3.8" font-size="3.2px">22:41</tspan></text>
-      <text class="axis-label" x="128" y="133" text-anchor="middle" font-size="3.2px">06-16</text>
+      <text class="axis-label" x="20" y="131" text-anchor="middle"><tspan x="20" dy="0" font-size="2.5px">06-12</tspan><tspan x="20" dy="3.8" font-size="2.5px">22:38</tspan></text>
+      <text class="axis-label" x="35.43" y="131" text-anchor="middle"><tspan x="35.43" dy="0" font-size="2.5px">06-12</tspan><tspan x="35.43" dy="3.8" font-size="2.5px">22:53</tspan></text>
+      <text class="axis-label" x="50.86" y="131" text-anchor="middle"><tspan x="50.86" dy="0" font-size="2.5px">06-13</tspan><tspan x="50.86" dy="3.8" font-size="2.5px">03:19</tspan></text>
+      <text class="axis-label" x="66.29" y="131" text-anchor="middle"><tspan x="66.29" dy="0" font-size="2.5px">06-13</tspan><tspan x="66.29" dy="3.8" font-size="2.5px">19:18</tspan></text>
+      <text class="axis-label" x="81.71" y="131" text-anchor="middle"><tspan x="81.71" dy="0" font-size="2.5px">06-13</tspan><tspan x="81.71" dy="3.8" font-size="2.5px">22:41</tspan></text>
+      <text class="axis-label" x="97.14" y="133" text-anchor="middle" font-size="2.5px">06-16</text>
+      <text class="axis-label" x="112.57" y="131" text-anchor="middle"><tspan x="112.57" dy="0" font-size="2.5px">06-18</tspan><tspan x="112.57" dy="3.8" font-size="2.5px">20:23</tspan></text>
+      <text class="axis-label" x="128" y="131" text-anchor="middle"><tspan x="128" dy="0" font-size="2.5px">06-18</tspan><tspan x="128" dy="3.8" font-size="2.5px">21:31</tspan></text>
       <!-- AP_CHART_END -->
     </g>
   </g>
