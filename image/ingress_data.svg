@@ -88,9 +88,9 @@
         <rect width="112" height="10" rx="1.2" fill="#24265d" />
         <text class="font-base" x="4" y="6.8" fill="#f0f6fd" font-size="4px" font-weight="900">DESCRIPTION</text>
         <text class="panel-label" x="4" y="16.8" font-size="5.1px">xm collected:</text>
-        <text class="panel-value" x="108" y="16.8" text-anchor="end" font-size="5.1px">1,494,726</text>
+        <text class="panel-value" x="108" y="16.8" text-anchor="end" font-size="5.1px">1,673,093</text>
         <text class="panel-label" x="4" y="24.8" font-size="5.1px">glyph points:</text>
-        <text class="panel-value" x="108" y="24.8" text-anchor="end" font-size="5.1px">783</text>
+        <text class="panel-value" x="108" y="24.8" text-anchor="end" font-size="5.1px">943</text>
         <text class="panel-label" x="4" y="32.8" font-size="5.1px">portals visited:</text>
         <text class="panel-value" x="108" y="32.8" text-anchor="end" font-size="5.1px">9</text>
         <text class="panel-label" x="4" y="40.8" font-size="5.1px">unique portals captured:</text>
@@ -126,15 +126,17 @@
       <text class="axis-label" x="15.8" y="50.87" text-anchor="end" font-size="3.2px">27.92M</text>
       <line class="axis-tick" x1="18.5" y1="16" x2="128.5" y2="16" />
       <text class="axis-label" x="15.8" y="17.2" text-anchor="end" font-size="3.2px">43.15M</text>
-      <path d="M 20 27.02 L 56 22.97 L 92 22.97 L 128 110.03" fill="none" stroke="url(#accent-grad)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" clip-path="url(#clip-chart)"/>
+      <path d="M 20 27.02 L 47 22.97 L 74 22.97 L 101 110.03 L 128 110.01" fill="none" stroke="url(#accent-grad)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" clip-path="url(#clip-chart)"/>
       <circle cx="20" cy="27.02" r="2.2" class="trend-point"/>
-      <circle cx="56" cy="22.97" r="2" class="trend-point"/>
-      <circle cx="92" cy="22.97" r="2" class="trend-point"/>
-      <circle cx="128" cy="110.03" r="2.2" class="trend-point-end"/>
+      <circle cx="47" cy="22.97" r="2" class="trend-point"/>
+      <circle cx="74" cy="22.97" r="2" class="trend-point"/>
+      <circle cx="101" cy="110.03" r="2" class="trend-point"/>
+      <circle cx="128" cy="110.01" r="2.2" class="trend-point-end"/>
       <text class="axis-label" x="20" y="133" text-anchor="middle" font-size="3.2px">06-16</text>
-      <text class="axis-label" x="56" y="131" text-anchor="middle"><tspan x="56" dy="0" font-size="3.2px">06-18</tspan><tspan x="56" dy="3.8" font-size="3.2px">20:23</tspan></text>
-      <text class="axis-label" x="92" y="131" text-anchor="middle"><tspan x="92" dy="0" font-size="3.2px">06-18</tspan><tspan x="92" dy="3.8" font-size="3.2px">21:31</tspan></text>
-      <text class="axis-label" x="128" y="133" text-anchor="middle" font-size="3.2px">06-20</text>
+      <text class="axis-label" x="47" y="131" text-anchor="middle"><tspan x="47" dy="0" font-size="3.2px">06-18</tspan><tspan x="47" dy="3.8" font-size="3.2px">20:23</tspan></text>
+      <text class="axis-label" x="74" y="131" text-anchor="middle"><tspan x="74" dy="0" font-size="3.2px">06-18</tspan><tspan x="74" dy="3.8" font-size="3.2px">21:31</tspan></text>
+      <text class="axis-label" x="101" y="133" text-anchor="middle" font-size="3.2px">06-20</text>
+      <text class="axis-label" x="128" y="133" text-anchor="middle" font-size="3.2px">06-21</text>
       <!-- AP_CHART_END -->
     </g>
   </g>
